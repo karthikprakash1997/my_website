@@ -64,6 +64,12 @@ a {
 .contact-links li {
   margin-bottom: 15px;
 }
+
+.profileLinks{
+  display:flex;
+  list-style-type: none;
+  justify-content:center;
+}
 .profileLinks li a {
   text-decoration: none;
   color: #000;
@@ -81,18 +87,27 @@ a {
 .workDates {
   color: #777;
 }
-.cards{
-  margin: 20px;
+.image{
+  display: flex;
 }
-.pl{
-  margin:15px;
-  display: table;
- justify-content: center;
- align-items: center;
- margin-bottom: 0;
- margin-left:30px ;
+
+.image img{
+ 
+  justify-content: center;
 }
-.heading{
-  margin-left:30px ;
-  margin-top: 20px;
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
 }
