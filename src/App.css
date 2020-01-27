@@ -1,5 +1,8 @@
 body {
   background: #f0f0f0;
+  padding-bottom: 100%;
+
+
 }
 aside, main {
   padding: 10px!important;
@@ -82,8 +85,14 @@ a {
   color: #777;
 }
 .cards{
-  margin: 20px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 10px auto;
+  box-sizing: border-box;
+
+
 }
+
 .pl{
   margin:15px;
   display: table;
@@ -95,4 +104,71 @@ a {
 .heading{
   margin-left:30px ;
   margin-top: 20px;
+}
+.sm{
+  display: flex;
+  width: 70%;
+  justify-content:space-around;
+}
+.cn{
+  display: flex;
+  justify-content: center;
+  margin:10px;
+}
+.acc{
+  color: #000;
+}
+.skillCard{
+ margin:10px; 
+}
+.image1{
+  display: flex;
+  justify-content: center;
+}
+
+.skillCard1{
+  margin:10px;
+  background-image: url(../src//assets//svg//media/facebook.svg); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+.bgimage{
+
+  background-image: url(../src/assets/svg/media/facebook.svg); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(238, 238, 238, 0.9) !important;
+  background-blend-mode: color;
+
+}
+
+.container{
+  overflow: hidden;
+}
+
+.cards1{
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 10px auto;
+  box-sizing: border-box;
+
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

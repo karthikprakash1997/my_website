@@ -6,11 +6,10 @@ import {ReactComponent as Csh} from'../../assets/svg/programmingLang/c#.svg'
 import {ReactComponent as Css} from'../../assets/svg/programmingLang/css.svg';
 import {Card} from 'react-bootstrap';
 import "../../App.css";
-import {Spring} from 'react-spring/renderprops'
 
 const pl =(props)=>{return (
-  <Card className='cards'>
-      <h4 className="heading">ProgrammingLanguage</h4>
+  <Card className='skillCard'>
+      <h4 className="heading">Programming Languages</h4>
       <div className="pl">
       <C/>
       <Cp/>

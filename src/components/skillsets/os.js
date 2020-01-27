@@ -6,7 +6,7 @@ import {Card} from 'react-bootstrap';
 import "../../App.css"
 
 const pl =(props)=>{return (
-    <Card className='cards'>
+    <Card className='skillCard'>
       <h4 className="heading">Operating System</h4>
       <div className="pl">
       <Linux></Linux> 

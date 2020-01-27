@@ -1,13 +1,22 @@
 import  React, {Component} from 'react';
 import '../App.css';
+import {Card} from 'react-bootstrap';
 
-class About extends Component {
- 
-
+class Intern extends Component {
   render(){
      
 return (
-  <div>{this.props.aboutData}</div>
+  <Card className="skillCard" >
+    <p>
+    className="col-md-4 col-xs-12"
+  style=
+    backgroundIm
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+
+    </p>
+ </Card>
   );
 }}
-export default About;
+export default Intern;
