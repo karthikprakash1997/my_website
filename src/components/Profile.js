@@ -11,7 +11,7 @@ import {Image} from 'react-bootstrap'
 const Profile = props => {
     const profileObj = props.profileData;
     return  <div>
-                  <div className='image1'><Image src={require("../karthik.jpg")} roundedCircle style={{height:245}} /></div>
+                  <div className='image1'><Image src={require("../karthik.png")} roundedCircle style={{height:245}} /></div>
                   <h1 className="text-center" >{profileObj.name}</h1>
                   <h2 className="text-center">{profileObj.label}</h2>
                   <div className="divider"></div>
@@ -23,10 +23,10 @@ const Profile = props => {
                   <div className="divider"></div>
                    <div className="cn">
                     <div className="sm">
-                    <Linkedin />
-                    <Git/>
-                    <Fb/>
-                    <Twitter/>
+                    <a href="www.linkedlin.com"><Linkedin /></a>
+                    <a href="www.github.com"><Git/></a>
+                    <a href='www.facebook.com'><Fb/></a>
+                    <a href="www.twitter.com"><Twitter/></a>
                   </div>
                   </div>
                   

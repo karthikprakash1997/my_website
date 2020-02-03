@@ -1,18 +1,17 @@
 body {
   background: #f0f0f0;
-  padding-bottom: 100%;
-
-
 }
-aside, main {
-  padding: 10px!important;
+aside,
+main {
+  padding: 10px !important;
 }
 @media (min-width: 992px) {
   main {
-    padding-left: 0!important;
+    padding-left: 0 !important;
   }
 }
-aside .inner, main .inner {
+aside .inner,
+main .inner {
   background: #fff;
   padding: 20px;
 }
@@ -55,12 +54,12 @@ a {
   margin-bottom: 20px;
 }
 .fa {
-  color:lightseagreen;
+  color: lightseagreen;
   margin-right: 5px;
   top: 4px;
 }
 .fb {
-  color:red;
+  color: red;
   margin-right: 5px;
   top: 4px;
 }
@@ -75,7 +74,10 @@ a {
   color: #23527c;
 }
 
-.about, .work, .education, .skills {
+.about,
+.work,
+.education,
+.skills {
   margin-bottom: 30px;
 }
 .skills-list li {
@@ -84,91 +86,112 @@ a {
 .workDates {
   color: #777;
 }
-.cards{
-  border: 1px solid #eee;
-  box-shadow: 0 2px 3px #ccc;
-  margin: 10px auto;
-  box-sizing: border-box;
 
-
-}
-
-.pl{
-  margin:15px;
+.pl {
+  margin: 15px;
   display: table;
- justify-content: center;
- align-items: center;
- margin-bottom: 0;
- margin-left:30px ;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  margin-left: 30px;
 }
-.heading{
-  margin-left:30px ;
+.heading {
+  margin-left: 30px;
   margin-top: 20px;
 }
-.sm{
+.sm {
   display: flex;
   width: 70%;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-.cn{
+.cn {
   display: flex;
   justify-content: center;
-  margin:10px;
+  margin: 10px;
 }
-.acc{
+.acc {
   color: #000;
 }
-.skillCard{
- margin:10px; 
+.skillCard {
+  margin: 10px;
 }
-.image1{
+.image1 {
   display: flex;
   justify-content: center;
 }
 
-.skillCard1{
-  margin:10px;
-  background-image: url(../src//assets//svg//media/facebook.svg); 
+.skillCard1 {
+  margin: 10px;
+  background-image: url(../src//assets//svg//media/facebook.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
- }
-.bgimage{
-
-  background-image: url(../src/assets/svg/media/facebook.svg); 
+}
+.bgimage {
+  background-image: url(../src/assets/svg/media/facebook.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(238, 238, 238, 0.9) !important;
   background-blend-mode: color;
-
 }
 
-.container{
+.container {
   overflow: hidden;
 }
 
-.cards1{
+.cards1 {
   border: 1px solid #eee;
   box-shadow: 0 2px 3px #ccc;
   margin: 10px auto;
   box-sizing: border-box;
 
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
-
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.cards {
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 10px auto;
+  box-sizing: border-box;
+
+  background: linear-gradient(-45deg, #f79f1f, #ffc312, #f79f1f, #ffc312);
+  background-size: 400%400%;
+  animation: gradient 15seaseinfinite;
+}
+.backgroundImage{
+
+  background-image:url('../src/assets/png/intern/psgbackground.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.DelvingbackgroundImage{
+
+  background-image:url('../src/assets/png/intern/Delving.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.TnebbackgroundImage{
+  background-image:url('../src/assets/png/intern/Tneb.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.psgiasbackgroundImage{
+  background-image:url('../src/assets/png/intern/psgiasbackground.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }

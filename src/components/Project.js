@@ -1,13 +1,13 @@
-import  React, {Component} from 'react';
-import '../App.css';
+import React from "react";
+import "../App.css";
+import Ultra from './project/ultra';
+import Wqm from './project/wqm';
 
-class About extends Component {
- 
-
-  render(){
-     
-return (
-  <div>{this.props.aboutData}</div>
-  );
-}}
+const About = (props) => {
+  return(
+    <React.Fragment>
+    <Ultra/>
+    <Wqm/>
+  </React.Fragment>)
+}
 export default About;
