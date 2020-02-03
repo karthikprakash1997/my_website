@@ -25,17 +25,6 @@ const App = props => {
     config: { duration: 3000 }
   });
 
-  // const eventHandler = () => {
-  //   firebase
-  //     .storage()
-  //     .ref("/Karthik resume wowe.pdf")
-  //     .getDownloadURL()
-  //     .then(url => {
-  //       console.log(url);
-  //       changedUrl({ URL: url });
-  //     });
-  // };
-
   return (
     <animated.div style={prop}>
       <Container>

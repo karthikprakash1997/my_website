@@ -173,25 +173,27 @@ a {
   background-size: 400%400%;
   animation: gradient 15seaseinfinite;
 }
-.backgroundImage{
+.backgroundImage {
+  background-image: url("../src/assets/png/intern/psgbackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.DelvingbackgroundImage {
+  background-image: url("../src/assets/png/intern/Delving.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.TnebbackgroundImage {
+  background-image: url("../src/assets/png/intern/Tneb.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.psgiasbackgroundImage {
+  background-image: url("../src/assets/png/intern/psgiasbackground.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-  background-image:url('../src/assets/png/intern/psgbackground.png');
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.DelvingbackgroundImage{
-
-  background-image:url('../src/assets/png/intern/Delving.png');
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.TnebbackgroundImage{
-  background-image:url('../src/assets/png/intern/Tneb.png');
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.psgiasbackgroundImage{
-  background-image:url('../src/assets/png/intern/psgiasbackground.png');
-  background-repeat: no-repeat;
-  background-position: center;
+.Hover:hover {
+  transform: scale(1.2);
 }
