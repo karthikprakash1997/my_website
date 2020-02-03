@@ -11,6 +11,7 @@ import Achievements from "./components/Achievements";
 import Hobbies from "./components/Hobbies";
 import { useSpring, animated } from "react-spring";
 import { Card, Accordion, Container, Row } from "react-bootstrap";
+import Download from "./components/download/download";
 
 const App = props => {
   const profileData = props.jsonObj.basics;
@@ -24,7 +25,17 @@ const App = props => {
     config: { duration: 3000 }
   });
 
-  // console.log(profileData)
+  // const eventHandler = () => {
+  //   firebase
+  //     .storage()
+  //     .ref("/Karthik resume wowe.pdf")
+  //     .getDownloadURL()
+  //     .then(url => {
+  //       console.log(url);
+  //       changedUrl({ URL: url });
+  //     });
+  // };
+
   return (
     <animated.div style={prop}>
       <Container>
@@ -267,6 +278,8 @@ const App = props => {
           </main>
         </Row>
       </Container>
+
+      <Download />
     </animated.div>
   );
 };

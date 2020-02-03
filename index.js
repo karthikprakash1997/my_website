@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import "./src/index.css";
+import App from "./src/App";
 import * as firebase from "firebase";
-import * as serviceWorker from "./serviceWorker";
+import * as serviceWorker from "./src/serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
-const json = require("./resume.json");
+const json = require("./src/resume.json");
 
 let config = {
   apiKey: "AIzaSyAr1T7yT1wJJUuAA1ieE4CP1FjIyZFXd-Y",
