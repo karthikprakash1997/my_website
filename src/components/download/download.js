@@ -17,6 +17,6 @@ const Download = props => {
     });
   };
 
-  return <button onClick={downloadHandler}>Download</button>;
+  return <p onClick={downloadHandler} style={{backgroundColor:"transparen",cursor:"pointer"}}>Take a tour to my CV</p>;
 };
 export default Download;

@@ -43,16 +43,16 @@ const Profile = props => {
       <div className="divider"></div>
       <div className="cn">
         <div className="sm">
-          <a href="www.linkedlin.com">
+          <a href="https://www.linkedin.com/in/karthik-prakash-s" target="_blank" rel="noopener noreferrer">
             <Linkedin className="Hover" />
           </a>
-          <a href="www.github.com">
+          <a href="https://github.com/karthikprakash1997" target="_blank" rel="noopener noreferrer">
             <Git className="Hover" />
           </a>
-          <a href="www.facebook.com">
+          <a href="www.facebook.com" target="_blank" rel="noopener noreferrer">
             <Fb className="Hover" />
           </a>
-          <a href="www.twitter.com">
+          <a href="www.twitter.com" target="_blank" rel="noopener noreferrer">
             <Twitter className="Hover" />
           </a>
         </div>
